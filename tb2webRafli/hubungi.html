@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hubungi Kami</title>
+    <link rel="stylesheet" href="styles.css"> <!-- CSS utama -->
+    <link rel="stylesheet" href="hubungi.css"> <!-- CSS khusus halaman Hubungi Kami -->
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="logo">Klug</div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="tentang.html">Tentang Kami</a></li>
+                <li><a href="layanan.html">Layanan Kami</a></li>
+                <li><a href="artikel.html">Artikel</a></li>
+                <li><a href="hubungi.html" class="active">Hubungi Kami</a></li>
+            </ul>
+        </nav>
+        <div class="daftar">
+            <div class="search-container">
+                <svg xmlns="http://www.w3.org/2000/svg" class="search-icon" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                    <circle cx="11" cy="11" r="8" />
+                    <line x1="21" y1="21" x2="16.65" y2="16.65" />
+                </svg>
+                <input type="text" placeholder="Ketik pencarian">
+            </div>
+            <button>DAFTAR ON-LINE</button>
+        </div>
+    </header>
+
+    <!-- Banner -->
+    <section class="banner">
+        <img src="pic_hubungikami/pichubungikami.jpeg" alt="Banner Hubungi Kami">
+        <div class="overlay"></div>
+        <h1 class="banner-title">HUBUNGI KAMI</h1>
+    </section>
+
+    <!-- Form Kirim Pesan -->
+    <main>
+        <section class="contact-form">
+            <h2>Kirim Pesan</h2>
+            <form action="#" method="post">
+                <div class="form-group">
+                    <div class="form-item">
+                        <label for="name">Nama*</label>
+                        <input type="text" id="name" name="name" placeholder="Nama lengkap Anda" required>
+                    </div>
+                    <div class="form-item">
+                        <label for="email">E-Mail*</label>
+                        <input type="email" id="email" name="email" placeholder="Alamat E-mail Anda" required>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <div class="form-item">
+                        <label for="company">Perusahaan / Organisasi</label>
+                        <input type="text" id="company" name="company" placeholder="Nama Perusahaan / Organisasi">
+                    </div>
+                    <div class="form-item">
+                        <label for="phone">Telepon</label>
+                        <input type="tel" id="phone" name="phone" placeholder="Nomor telepon Anda">
+                    </div>
+                </div>
+
+                <label for="message">Isi Pesan*</label>
+                <textarea id="message" name="message" placeholder="Isi pesan Anda ..." rows="5" required></textarea>
+
+                <div class="form-footer">
+                    <div class="recaptcha">
+                        <p>I'm not a robot</p>
+                    </div>
+                    <button type="submit" class="submit-btn">KIRIM PESAN</button>
+                </div>
+            </form>
+        </section>
+    </main>
+
+<!-- Garis Pemisah -->
+<hr class="divider">
+
+    <!-- Banner Paling Bawah -->
+    <section class="footer-banner">
+        <div class="footer-banner-content">
+            <h2>Tegar Maulana [41823010144]</h2>
+        </div>
+    </section>
+</body>
+</html>
