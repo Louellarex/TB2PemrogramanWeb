@@ -439,7 +439,7 @@ footer {
 
 .articles-container {
     display: grid;
-    grid-template-columns: repeat(1, 1fr); /* Dua kolom */
+    grid-template-columns: repeat(1, 1fr); /* Satu kolom */
     gap: 30px; /* Jarak antar gambar */
     justify-items: center; /* Agar gambar terpusat */
 }
